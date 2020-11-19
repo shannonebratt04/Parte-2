@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        html{
+            font-family: "kumbh sans";
+        font-weight: bold;
+        }
+        main{
+            padding: 4%;
+            height: 20em;
+        
+        }
+            .nav-wrapper{
+                margin-left: 3%;
+                margin-right: 3%;}
+                .container{
+                    font-weight: bolder;
+                    font-size: 11,5pt;
+                }
+                .materialboxed{
+                    margin-top: 10em;
+                    margin-bottom: 10em;
+                }
+                .container{
+      margin-top: 5em;
+  }   
+    </style>
+</head>
+<body>
+    <header>
+ <!--NAVBAR-->       
+    <nav class=" nav-extended red lighten-4 z-depth-0">
+        <div class="nav-wrapper">
+          <img class="responsive-img col s1 m1 l1" width="10%" src="scr/Img/logo-01.png">
+            <a href="./Home.html" class="sidenav-trigger " data-target="menuside">
+              <i class="material-icons white-text">menu</i>
+            </a>
+            <ul class="sidenav" id="menuside">
+              <li>
+                <a href="">
+                  <i class="material-icons">home</i>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="./Productos.html">
+                  <i class="material-icons">local_grocery_store</i>
+                  Productos
+                </a>
+              </li>
+              <li>
+                <a href="./Ayuda.html">
+                  <i class="material-icons">assistant</i>
+                  Ayuda
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="material-icons">sentiment_very_satisfied</i>
+                 ¿Quienes somos?
+                </a>
+              </li>
+            </ul>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="./Home.html">Home</a></li>
+            <li><a href="./Productos.html">Productos</a></li>
+            <li><a href="./Ayuda.html">Ayuda</a></li>
+            <li><a href="./About.html"> ¿Quienes somos?</a></li>
+            </ul>
+            </div>
+            </nav>
+           
+            <div class="container">
+                <img class="materialboxed" width="100%" src="./scr/Img/Logo-abou-01.png">
+                <br>                
+<h3 class="center-align grey-text text-lighten-1">¿Quienes somos?</h3>
+<br>
+<h5 class="center-align grey-text text-lighten-1">Somos una empresa colombiana dedicada a la venta de todo tipo de calzado para dama. Nos gusta entender, satisfacer y respetar tu estilo. 
+  En nuestra tienda encuentras las mejores tendencias de diseño en calzado, con la más alta calidad a precios justos. Una experiencia de compra que traerá la moda del mundo a tus pies.</h5>
+  <br>
+  <br>
+            </div>
+        </header>
+
+ <main class="yellow lighten-5">
+     <div class="container">
+<p class ="col s12 center-align grey-text text-lighten-1">Las mujeres por lo general para lucir elegantes en cualquier lugar o momento del día, necesitan de calzado cómodo y sofisticado. 
+                  Dicho esto, el objetivo de Luma es aportar la pieza perfecta al Outfit de las mujeres que residen en la zona oriental del Atlántico y del territorio nacional.</p>
+  <br>
+  <br>
+  <br>
+</div>
+</main> 
+
+
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-large yellow lighten-4">
+    <i class="large material-icons">assistant</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating red lighten-4"><i class="material-icons">call</i></a></li>
+    <li><a class="btn-floating indigo lighten-4"><i class="material-icons">local_offer</i></a></li>
+    <li><a class="btn-floating grey lighten-2"><i class="material-icons">location_on</i></a></li>
+  </ul>
+</div>
+
+ 
+ <!--FOOTER-->
+ <footer class="page-footer indigo lighten-5">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="grey-text">Luma</h5>
+         
+        <h6 class="grey-text">Tienda donde encontrarás la pieza perfecta para combinar con tu Outfit.</h6>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="grey-text">Contáctanos</h5>
+        <ul>
+          <h6 class="grey-text">Instagram</h6>
+          <li><a class="grey-text" href="#!">@luma_sto</a></li>
+          <h6 class="grey-text">WhatsApp</h6>
+          <li><a class="grey-text" href="#!">+57 302 3365436</a></li>
+ <br>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-copyright">
+    <div class="container center-align grey-text"> © Luma 2020
+    </div>
+  </div>
+</footer>
+
+ <!--Script-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, );
+  });    
+</script>
+<script> 
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems);
+  });
+</script>
+
+</body>
+</html>

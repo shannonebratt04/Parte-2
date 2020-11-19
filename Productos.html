@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    
+<!--STYLES-->
+<style>
+
+html{
+    font-family: "kumbh sans";
+    font-weight: bold;
+}
+
+    header{
+    background-image: url("scr/Img/color-14.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;   
+ }
+ 
+    .nav-wrapper{
+        margin-left: 3%;
+        margin-right: 3%;}
+
+ main{
+     height: 20em;
+ }
+
+  .container{
+      margin-top: 5em;
+  }   
+ 
+ body{    
+     font-family: "kumbh sans";
+     overflow-x: hidden;
+     
+ }
+         body { 
+           background-image: url("scr/Img/color-15.jpg");
+           background-repeat: no-repeat;
+           background-size: 100%;   
+         
+         }
+         h1 { margin:150px auto 30px auto; text-align:center; color:#fff;}
+    
+             .hi-slide { position: relative; width: 800px; height: 300px; margin: 115px auto 0; }
+             
+ .hi-slide .hi-next,
+ .hi-slide .hi-prev 
+             { position: absolute;
+               top: 50%; 
+               width: 40px;
+               height: 40px; 
+               margin-top: -20px;     
+                 border-radius: 50px; 
+               line-height: 40px;
+               text-align: center; 
+               cursor: pointer;
+               background-image: url("scr/Img/color-15.jpg");
+               color: white;               
+               transition: all 0.6s;
+               font-size: 20px; 
+                 font-weight: bold;
+             }
+            .hi-slide .hi-next:hover, 
+             .hi-slide .hi-prev:hover 
+             {
+             opacity: 1; 
+             background-color: #fff;  
+             }
+             
+            .hi-slide .hi-prev { left: -60px; }
+             
+     .hi-slide .hi-prev::before { content: '<'; }
+     .hi-slide .hi-next { right: -60px; }
+     .hi-slide .hi-next::before { content: '>'; }
+     
+             .hi-slide > ul
+                     { 
+                         list-style: none; 
+                         position: relative;
+                         width: 754px; 
+                         height: 292px; 
+                         margin: 0;
+                         padding: 0;
+             }
+             
+             
+         .hi-slide > ul > li {
+             overflow: hidden; 
+             position: absolute; 
+             z-index: 0; 
+             left: 377px;
+             top: 146px; 
+             width: 0; 
+             height: 0; 
+             margin: 0; 
+             padding: 0;
+             border: 3px solid #fff;              
+             background-color: #333; 
+             cursor: pointer; }
+             
+         .hi-slide > ul > li > img { width: 100%; height: 100%; background-position: center;}
+ 
+  
+ 
+     </style>
+</style>
+</head>
+<body>
+<header>
+    <!--navbar-->
+    <nav class=" nav-extended transparent z-depth-0">
+    <div class="nav-wrapper">
+        <img class="responsive-img col s1 m1 l1" width="10%" src="./scr/Img/llll-01.png">
+        <a href="./Home.html" class="sidenav-trigger " data-target="menuside">
+          <i class="material-icons white-text">menu</i>
+        </a>
+        <ul class="sidenav" id="menuside">
+          <li>
+            <a href="">
+              <i class="material-icons">home</i>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="./Productos.html">
+              <i class="material-icons">local_grocery_store</i>
+              Productos
+            </a>
+          </li>
+          <li>
+            <a href="./Ayuda.html">
+              <i class="material-icons">assistant</i>
+              Ayuda
+            </a>
+          </li>
+          <li>
+            <a href="./About.html">
+              <i class="material-icons">sentiment_very_satisfied</i>
+             ¿Quienes somos?
+            </a>
+          </li>
+        </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="./Home.html">Home</a></li>
+        <li><a href="./Productos.html">Productos</a></li>
+        <li><a href="./Ayuda.html">Ayuda</a></li>
+        <li><a href="./About.html"> ¿Quienes somos?</a></li>
+        </ul>
+        </div>
+        </nav>
+        <img class="materialboxed" width="100%" src="./scr/Img/bannerc1.jpg">
+</header>
+
+<!-- CARRUCEL CAPITULOS -->
+<div class="slide hi-slide">
+  <div class="hi-prev "></div>
+  <div class="hi-next "></div>
+  <ul>
+    <li><img src="./scr/Productos/1.JPG" alt="Img 1" /></li>
+    <li><img src="./scr/Productos/2.JPG" alt="Img 2" /></li>
+    <li><img src="./scr/Productos/3.JPG" alt="Img 3" /></li>
+    <li><img src="./scr/Productos/4.JPG" alt="Img 4" /></li>
+    <li><img src="./scr/Productos/5.JPG" alt="Img 5" /></li>
+    <li><img src="./scr/Productos/6.JPG" alt="Img 6" /></li>
+    <li><img src="./scr/Productos/7.JPG" alt="Img 7" /></li>
+  </ul>
+</div>
+
+</section>
+
+
+<!--MAIN-->
+<main class="white">
+    <divc class="row">
+        <div class="container">
+    <h4 class="col s12 center-align grey-text text-lighten-1">Que tu corazón y armario 
+      estén llenos de nuestros zapatos</h4>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h5 class="col s12 center-align grey-text text-lighten-1">En la página subimos a diario todos los modelos que manejamos y tenemos disponibles, 
+        date el gusto de observar y realizar la compra que le dará el plus a tu Outfit. </h5>
+</div>
+</div>
+</main>
+
+<!--Cards-->
+<section class="container">
+  <h2 class="col s12 center-align grey-text text-lighten-1">Catálogo</h2>
+  <div class="row">
+
+   <div class="col s12 m12 l6">
+     <div class="card">
+       <div class="card-image waves-effect waves-block waves-light">
+         <img class="activator" src="scr/Productos/tarjeta-01.jpg">
+       </div>
+       <div class="card-content">
+         <span class="card-title activator grey-text text-darken-1">Alpargatas
+           <i class="material-icons right">more_vert</i></span>
+         <div class="card-action">
+           <a href="#" class="btn-large light-blue accent-2">Ver más</a>
+         </div>
+       </div>
+       <div class="card-reveal">
+         <span class="card-title grey-text text-darken-1">Alpargatas<i class="material-icons right">close</i></span>
+         <p>Calzado cómodo y elegante para uso diario.</p>
+         <img src="scr/Productos/tarjeta-07.jpg" class="responsive-img">
+       </div>
+     </div>           
+   </div>
+
+   <div class="col s12 m12 l6">
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="scr/Productos/tarjeta-03.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-1">Alta Gama
+          <i class="material-icons right">more_vert</i></span>
+        <div class="card-action">
+          <a href="#" class="btn-large light-blue accent-2">Ver más</a>
+        </div>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-1">Alta Gama<i class="material-icons right">close</i></span>
+        <p>Calzado deportivo para uso formal. </p>
+        <img src="scr/Productos/tarjeta-11.jpg" class="responsive-img">
+      </div>
+    </div>           
+  </div>
+
+
+  <div class="col s12 m12 l6">
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="scr/Productos/tarjeta-02.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-1">Tacones
+          <i class="material-icons right">more_vert</i></span>
+        <div class="card-action">
+          <a href="#" class="btn-large light-blue accent-2">Ver más</a>
+        </div>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-1">Tacones<i class="material-icons right">close</i></span>
+        <p>Calzado elegante y de alta calidad.</p>
+        <img src="scr/Productos/tarjeta-10.jpg" class="responsive-img">
+      </div>
+    </div>           
+  </div>
+
+  <div class="col s12 m12 l6">
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="scr/Productos/tarjeta-06.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-1">Tenis
+          <i class="material-icons right">more_vert</i></span>
+        <div class="card-action">
+          <a href="#" class="btn-large light-blue accent-2">Ver más</a>
+        </div>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-1">Tennis<i class="material-icons right">close</i></span>
+        <p>Calzado deportivo exclusivo y de mayor comodidad. </p>
+        <img src="scr/Productos/tarjeta-09.jpg" class="responsive-img">
+      </div>
+    </div>           
+  </div>
+
+  <div class="col s12 m12 l6">
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="scr/Productos/tarjeta-05.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-1">Planas
+          <i class="material-icons right">more_vert</i></span>
+        <div class="card-action">
+          <a href="#" class="btn-large light-blue accent-2">Ver más</a>
+        </div>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-1">Planas<i class="material-icons right">close</i></span>
+        <p>Calzado que aporta frescura y elegancia a tus atuendos.</p>
+        <img src="scr/Productos/tarjeta-08.jpg" class="responsive-img">
+      </div>
+    </div>           
+  </div>
+
+  <div class="col s12 m12 l6">
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="scr/Productos/tarjeta-04.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-1">Lolas
+          <i class="material-icons right">more_vert</i></span>
+        <div class="card-action">
+          <a href="#" class="btn-large light-blue accent-2">Ver más</a>
+        </div>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-1">Lolas<i class="material-icons right">close</i></span>
+        <p>Calzado en tendencia informal.</p>
+        <img src="scr/Productos/tarjeta-12.jpg" class="responsive-img">
+      </div>
+    </div>           
+  </div>
+
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large yellow lighten-4">
+      <i class="large material-icons">assistant</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red lighten-4"><i class="material-icons">call</i></a></li>
+      <li><a class="btn-floating indigo lighten-4"><i class="material-icons">local_offer</i></a></li>
+      <li><a class="btn-floating grey lighten-2"><i class="material-icons">location_on</i></a></li>
+    </ul>
+  </div>
+
+  </div>
+</section>
+<!--FOOTER-->
+
+<footer class="page-footer indigo lighten-5">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="grey-text">Luma</h5>
+         
+        <h6 class="grey-text">Tienda donde encontrarás la pieza perfecta para combinar con tu Outfit.</h6>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="grey-text">Contáctanos</h5>
+        <ul>
+          <h6 class="grey-text">Instagram</h6>
+          <li><a class="grey-text" href="#!">@luma_sto</a></li>
+          <h6 class="grey-text">WhatsApp</h6>
+          <li><a class="grey-text" href="#!">+57 302 3365436</a></li>
+ <br>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-copyright">
+    <div class="container center-align grey-text"> © Luma 2020
+    </div>
+  </div>
+</footer>
+
+<!--Script-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, );
+  });    
+</script>
+<script> 
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems);
+  });
+</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="./JS/Producto.js" ></script>
+<script>
+  $('.slide').hiSlide();
+</script>
+
+</body>
+</html>
